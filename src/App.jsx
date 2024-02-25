@@ -1,11 +1,27 @@
-function App() {
-  return (
+import {
+  createBrowserRouter,
+  Route,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+import { Login } from "./pages/login";
+import { RootLayout } from "./layout/RootLayout";
+import { AuthLayout } from "./layout/AuthLayout";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
     <>
-      <div className="p-4 bg-gray-300">
-        <p className="text-2xl text-[#1518a5]">Taskbily Dashboard</p>
-      </div>
+      <Route path="/" element={<RootLayout />}>
+        {/* home related pages goes here */}
+      </Route>
+      <Route element={<AuthLayout />}>
+        <Route path="login" element={<Login />} />
+      </Route>
     </>
   )
+);
+function App() {
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
