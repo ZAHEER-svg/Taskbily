@@ -7,6 +7,7 @@ import {
 import { Login } from "./pages/login";
 import { RootLayout } from "./layout/RootLayout";
 import { AuthLayout } from "./layout/AuthLayout";
+import Register from "./pages/Register";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +17,7 @@ const router = createBrowserRouter(
       </Route>
       <Route element={<AuthLayout />}>
         <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
       </Route>
     </>
   )
