@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+header, section, footer, div, p, a ,li, span {
+    font-size: 1.4rem;
+}

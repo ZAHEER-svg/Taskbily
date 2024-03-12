@@ -10,8 +10,8 @@ import { RootLayout } from "./layout/RootLayout";
 import { AuthLayout } from "./layout/AuthLayout";
 import Register from "./pages/Register";
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
+function App() {
+  return (
     <>
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home/>}/>
@@ -22,9 +22,6 @@ const router = createBrowserRouter(
       </Route>
     </>
   )
-);
-function App() {
-  return <RouterProvider router={router} />;
 }
 
-export default App;
+export default App
