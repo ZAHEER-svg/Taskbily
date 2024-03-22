@@ -1,0 +1,115 @@
+.sidebar{
+    display: flex;
+
+}
+
+body{
+    overflow-y: visible;
+}
+
+.sidebar-menu{
+    height: 100vh;
+    position: fixed;
+    background-color: #28313C;
+    color: white;
+    width: 21%;
+    overflow-y: scroll;
+   
+   
+}
+
+.sidebar-nav{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sidebar-content{
+    width: 100%;
+    background-color: ghostwhite;
+    margin-left: 21%;
+   
+}
+
+.sidebar-nav-left{
+    display: flex;
+    gap: 6px;
+}
+
+.sidebar-menu-item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.sidebar-user{
+    border-bottom: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.dbase-main{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar-icon{
+    display: none;
+}
+
+.info{
+    background-color: ghostwhite;
+    border: 1px solid gainsboro;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: -5px;
+    font-size: small;
+}
+
+@media screen and (max-width:768px) {
+    .sidebar-menu{
+        left: -100%;
+        width: 60%;
+        position: absolute;
+        transition: all ease-in 50ms;
+    }
+
+    .sidebar-nav-left h3, .sidebar-nav-left p{
+        display: none;
+    }
+
+    .sidebar-toggle{
+        left: 0;
+    }
+
+    .sidebar-icon{
+        display: inline;
+    }
+
+    .info{
+        display: none;
+    }
+   
+    .sidebar-content{
+        margin-left: 0;
+    }
+
+   
+}

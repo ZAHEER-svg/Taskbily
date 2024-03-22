@@ -11,6 +11,7 @@ import SignInPage from "./public_area/pages/sign_in/sign_in.page";
 import SignUpPage from "./public_area/pages/sign_up/sign_up.page";
 import TermsOfUsePage from "./public_area/pages/terms_of_use/terms_of_use.page";
 import PrivacyPolicyPage from "./public_area/pages/privacy_policy/privacy_policy.page";
+import Dashboard from "./public_area/pages/dashboard/dashboard.page";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       {/* Public Area */}
       <div>
         {/* header */}
-        <Header />
+        {/*<Header />*/}
 
         {/* body */}
         <Routes>
@@ -30,10 +31,11 @@ function App() {
           <Route path="/sign_up" exact element={<SignUpPage />} />
           <Route path="/terms_of_use" exact element={<TermsOfUsePage />} />
           <Route path="/privacy_policy" exact element={<PrivacyPolicyPage />} />
+          <Route path="/dashboard" exact element={<Dashboard/>}/>
         </Routes>
 
         {/* footer */}
-        <Footer />
+        {/*<Footer />*/}
       </div>
     </>
   )

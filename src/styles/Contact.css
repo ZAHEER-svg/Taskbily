@@ -1,0 +1,75 @@
+.contact{
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+
+.contact-body{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+
+.contact-form-top{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+
+.contact-form-top div{
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    border: 1px solid gray;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+}
+
+.contact-btn{
+    padding: 10px;
+    border: 1px solid #2046CF;
+    background-color:  #2046CF;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.contact-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 50px 20px;
+    background-color: aliceblue;
+}
+
+.contact-card-btn{
+    padding: 10px 20px;
+    border: 1px solid #2046CF;
+    background-color:  #2046CF;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width:768px) {
+    .contact{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .contact-card{
+        display: block;
+    }
+}

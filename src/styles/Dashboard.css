@@ -1,0 +1,12 @@
+.dashboard-top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.dashboard-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
