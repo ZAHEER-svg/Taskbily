@@ -17,7 +17,7 @@ const Register = () => {
   return (
     <section className="register-card">
       <div className="text-center sm:px-6 md:px-12">
-        <img src="" alt="logo" />
+        <img src="" alt="" />
         <h5 className='register-card-header'>
           Check out Taskbily - it's free!
         </h5>

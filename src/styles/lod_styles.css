@@ -1,0 +1,11 @@
+/* added by Lod - needed to properly display my designs */
+
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header, section, footer, div, p, a ,li, span, th, td, tr {
+    font-size: 1.4rem;
+}

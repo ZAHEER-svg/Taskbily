@@ -2,7 +2,7 @@
     width: 100%;
     outline: none;
     padding: 15px;
-    border: 1px solid #A6C8E7;
+    border: 1px solid #f9a8d4;
     margin-bottom: 10px;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .form-footer-show{
-    color: #2046cf;
+    color: #db2777;
     cursor: pointer;
     font-weight: bold;
     font-size: 14px;
@@ -45,7 +45,7 @@
 
 .register-btn{
     border-radius: 30px;
-    background-color:  #2046cf;
+    background-color:  #EF4444;
     width: 100%;
     padding: 15px;
     color: white;
@@ -65,12 +65,12 @@
 }
 
 .reg-link{
-    color: #2046CF;
+    color: #EF4444;
 }
 
 .register-google-btn{
     border-radius: 30px;
-    background-color:  rgb(66, 133, 244);
+    background-color:  #EF4444;
     width: 100%;
     padding: 15px;
     color: white;
